@@ -1,4 +1,4 @@
-SECRET_KEY = 'dsfgvb2sf8sfv2sfdvfdvsfgb1s63135f1dvffbvs'
+SECRET_KEY = 'CHANGE-ME'
 DEBUG = True
 ALLOWED_HOSTS = ['*']
 
