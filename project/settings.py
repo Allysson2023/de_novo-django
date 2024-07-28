@@ -142,12 +142,6 @@ MEDIA_ROOT = BASE_DIR / 'media'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-try:
-    from project.local_settings import *
-except ImportError:
-    ...
-
-
 SUMMERNOTE_CONFIG = {
     'summernote': {
         # Toolbar customization
@@ -174,3 +168,8 @@ SUMMERNOTE_CONFIG = {
     'attachment_filesize_limit': 30 * 1024 * 1024,
     'attachment_model': 'blog.PostAttachment',
 }
+
+try:
+    from project.local_settings import *
+except ImportError:
+    ...
