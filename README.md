@@ -1,2 +1,2 @@
 # de_novo-django
-projeto_blog_2024
+Testando meu Projeto de novo do app Reservar Hoteis
