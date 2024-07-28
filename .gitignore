@@ -9,7 +9,7 @@ media/
 project/local_settings.py
 gunicorn-error-log
 __localcode
-local_settings
+
 
 # Backup files #
 *.bak
