@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'Pg82*V%l*7B+Kl?AVVdwE6tpHt65BJA4$+999NmAbcC(YYb9P'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['www.flexstreamtv.com.br']
 
