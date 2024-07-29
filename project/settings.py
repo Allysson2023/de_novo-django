@@ -25,7 +25,7 @@ SECRET_KEY = 'Pg82*V%l*7B+Kl?AVVdwE6tpHt65BJA4$+999NmAbcC(YYb9P'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*','localhost','52.67.12.51','127.0.0.1']
+ALLOWED_HOSTS = ['*','0.0.0.0', '127.0.0.1','localhost','52.67.12.51']
 
 # ['*', '127.0.0.1', 'localhost', 'your-ec2-public-ip', 'your-domain.com']
 # Application definition
