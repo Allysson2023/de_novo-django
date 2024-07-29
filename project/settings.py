@@ -25,7 +25,7 @@ SECRET_KEY = 'Pg82*V%l*7B+Kl?AVVdwE6tpHt65BJA4$+999NmAbcC(YYb9P'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['www.flexstreamtv.com.br']
+ALLOWED_HOSTS = ['www.flexstreamtv.com.br','52.67.12.51']
 
 
 # Application definition
