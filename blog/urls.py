@@ -17,4 +17,8 @@ urlpatterns = [
     path('tag/<slug:slug>/', views.TagListView.as_view(), name='tag' ),
 
     path('search/', views.SearchListView.as_view(), name='search' ),
+
+
+
+    
 ]
